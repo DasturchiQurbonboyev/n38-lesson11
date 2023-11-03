@@ -1,0 +1,15 @@
+.boglanish{
+    background:#16697A ;
+}
+
+.boglanishlar{
+    padding: 50px 0;
+    gap: 30px;
+    display: flex;
+}
+
+
+.col-md{
+    display: flex;
+    flex-direction: column;
+}

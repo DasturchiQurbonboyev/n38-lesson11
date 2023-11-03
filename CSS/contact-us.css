@@ -1,0 +1,34 @@
+
+.contact-about{
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 0;
+}
+
+.contact-about-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-about-list input, textarea{
+    padding: 12px 20px;;
+}
+
+textarea{
+    width: 1050px;
+    height: 156px;
+    resize: none;
+    
+}
+
+.contact-about button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    background: #FFA62B;
+    cursor: pointer;
+}
+
+
+

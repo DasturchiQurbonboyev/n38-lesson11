@@ -1,0 +1,153 @@
+@import url(/CSS/about.css);
+@import url(advice.css);
+@import url(./services.css);
+@import url(clients.css);
+@import url(contact.css);
+@import url(contact-us.css);
+@import url(boglanish.css);
+@import url(./footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    background: #e5e5e5;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    background-color: #fafafa;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px  50px;
+    position: fixed;
+    background-color: white;
+}
+
+
+
+.logo-text{
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #737373;
+    transition: 0.2s;
+}
+
+a:hover{
+    color: black;
+}
+
+header {
+    padding-top: 80px;
+}
+
+.home{
+    background-image: url(/IMAGES/Home/cover.png);
+    background-repeat: no-repeat;
+
+}
+
+.home-az {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.home h1 {
+    max-width: 510px;
+    font-size: 58px;
+    font-weight: 800;
+    color: #252B42;
+    font-family: Montserrat;
+}
+
+.home p {
+    max-width: 370px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    font-family: Montserrat;
+    color: #737373;
+}
+
+.btn-link a,
+.btn-link a:hover {
+    text-decoration: none;
+    font-family: Montserrat;
+    padding: 10px 36px;
+    border-radius: 35px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    border: 2px solid #00A0C1;
+    color: #00A0C1;
+    transition: 0.2s;
+}
+
+.btn-link a:active {
+    background: #FFA62B;
+    border: none;
+    color: white;
+}
+
+.card-home {
+    padding: 80px 0;
+    gap: 30px;
+}
+
+
+.card-item-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 328px;
+    padding: 35px 40px;
+    gap: 10px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 15px 15px 25px #252B42;
+}
+
+
+
+
+
+
+/* @media  {
+
+    
+} */
